@@ -1,0 +1,312 @@
+/* import fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+*{
+    font-family: "Robot Mono";
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* seccion inicio */
+.inicio {
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("https://besthqwallpapers.com/Uploads/1-5-2020/130844/blue-paint-blur-texture-blur-liquid-texture-blur-marbling-blue-texture-blue-abstraction-blur-texture.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.inicio .content-section {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.inicio .content-section header {
+    padding: 30px;
+}
+/* menu lat*/
+.inicio .content-section header nav {
+    position: fixed;
+    margin-left: 60px;
+    background-color: #5D6D7E;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+
+.inicio .content-section header nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* ****** */
+.inicio .content-section header .logo {
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Robot Mono";
+    text-shadow: 0 0 35px #fff;
+}
+
+.inicio .content-section header .logo .color {
+    color: #fff;
+    font-family: "Robot Mono";
+}
+
+.inicio .content-section header .nav-bar {
+    position: fixed;
+    left: 480px;
+    background-color: #154360;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.inicio .content-section header .nav-bar:hover {
+    box-shadow: 0 0 10px #154360 ;
+}
+
+.inicio .content-section .info {
+    padding-bottom: 130px;
+}
+
+.inicio .content-section .info h1 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.inicio .content-section .info h2 {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.inicio .content-section .info .network {
+    margin: 20px 0;
+}
+
+.inicio .content-section .info .network a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2C3E50 ;
+    color: #85929E;
+    border: 1px solid #85929E;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+.inicio .content-section .info .network a:hover {
+    color: #fff;
+    background-color: #85929E;
+    box-shadow: 0 0 20px #154360;
+}
+
+.inicio .content-section .photo {
+    position: relative;
+}
+
+.inicio .content-section .photo img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #85929E;
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    transform: translateX(-50%);
+}
+
+/* Estilos generales */
+.title-section {
+    font-family: "Robot Mono";
+    font-size: 2rem;
+}
+
+/* Seccion sobre mi */
+.sobremi {
+    background-color: #e6e6e6;
+    padding: 50px 0 100px 0;
+    text-align: center;
+}
+
+.sobremi .content-section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.sobremi .content-section h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.sobremi .content-section .special {
+    color: #154360;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.sobremi .content-section p {
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+}
+
+.sobremi .content-section .row {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.sobremi .content-section .row .col {
+    width: 30%;
+}
+
+.sobremi .content-section .row .col i {
+    color: #154360;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #154360;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.sobremi .content-section .row .col span {
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+ /* Section habilidades */
+
+ .habilidades {
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("https://s2.best-wallpaper.net/wallpaper/2880x1800/1810/Blue-style-clouds-background-texture-abstract_2880x1800.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #fff;
+ }
+
+ .habilidades .content-section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+ }
+
+.habilidades .content-section h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.habilidades .content-section .fila {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.habilidades .content-section .fila .col {
+    width: 47%;
+    text-align: left;
+}
+
+.habilidades .content-section .fila .cont-barra {
+    display: flex;
+    align-items: center;
+}
+
+.habilidades .content-section .barra {
+    display: flex;
+    border: 1px solid #154360;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.habilidades .content-section .barra .e {
+    background-color: #363636;
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
+}
+
+/* CONTACT SECTION */
+
+.contacto {
+    background-color: #363636;
+    padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+
+.contacto .content-section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contacto .content-section h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.contacto .content-section .fila {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto .content-section .fila .col {
+    margin-top: 50px;
+}
+
+.contacto .content-section .fila .col h2 {
+    color: #154360;
+}
+
+/* Seccion Responsive */
+@media screen and (max-width:800px) {
+    .habilidades .content-section .fila {
+        display: block;
+    }
+    .halidades .content-section .fila .col {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .habilidades .content-section .fila .col .cont-barra {
+        justify-content: center;
+    }
+
+    .sobremi .content-section .fila {
+        display: block;
+    }
+
+    .sobremi .content-section .fila .col {
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .contact .content-section .fila {
+        display: block;
+    }
+
+}
